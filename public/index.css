@@ -1,0 +1,40 @@
+.nav-wrapper .brand-logo img {
+	padding: 5px;
+	width: 60px;
+	height: 60px;
+}
+
+.nav-wrapper {
+	margin: 20px;
+	box-shadow: none;
+	font-weight: bold;
+}
+
+.nav-item {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.slogan {
+	padding-top: 100px;
+	font-size: 100px;
+	font-weight: bold;
+	background: linear-gradient(to bottom right, #ff664e, #04507b);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#logo {
+	max-width: 60px;
+}
+
+#contact-header {
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 1000px)
+{
+	.slogan {
+		padding-top: 20px;
+	}
+}
