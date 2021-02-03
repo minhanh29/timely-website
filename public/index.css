@@ -36,5 +36,13 @@
 {
 	.slogan {
 		padding-top: 20px;
+		font-size: 90px;
+	}
+}
+
+@media only screen and (max-width: 600px)
+{
+	.slogan {
+		font-size: 60px;
 	}
 }
