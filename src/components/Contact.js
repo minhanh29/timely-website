@@ -42,7 +42,7 @@ class Contact extends Component {
 			<div className="container">
 				<h4 id="contact-header" className="grey-text text-darken-4 center">Contact Us</h4>
 				<p className="center grey-text text-darken-2">We are here to assist and provide you the best service</p>
-				<div className="row">
+				<div className="row bottom-padding">
 					<form onSubmit={this.handleSubmit} className="white col s12 m10 push-m1">
 						<div className="row center">
 							<div className="input-field col s6">

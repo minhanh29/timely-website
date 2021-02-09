@@ -1,3 +1,15 @@
+.bold {
+	font-weight: bold;
+}
+
+.r-margin {
+	padding-right: 50px;
+}
+
+.l-margin {
+	padding-left: 50px;
+}
+
 .nav-wrapper .brand-logo img {
 	padding: 5px;
 	width: 60px;
@@ -24,6 +36,10 @@
 	-webkit-text-fill-color: transparent;
 }
 
+.bottom-padding {
+	margin-bottom: 75px;
+}
+
 #logo {
 	max-width: 60px;
 }
@@ -44,5 +60,17 @@
 {
 	.slogan {
 		font-size: 60px;
+	}
+
+	.r-margin {
+		padding-right: 0;
+	}
+
+	.l-margin {
+		padding-left: 0;
+	}
+
+	.valign-wrapper {
+		display: block;
 	}
 }
