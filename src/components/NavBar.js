@@ -22,9 +22,9 @@ const NavBar = () => {
 			</nav>
 
 			<ul className='sidenav' id='slide-out'>
-				<li className="center"><NavLink to="/"><h5 className="bold">Home</h5></NavLink></li>
-				<li className="center"><NavLink to="/features"><h5 className="bold">Features</h5></NavLink></li>
-				<li className="center"><NavLink to="/contact"><h5 className="bold">Contact</h5></NavLink></li>
+				<li className="center med-text"><NavLink to="/">Home</NavLink></li>
+				<li className="center med-text"><NavLink to="/features">Features</NavLink></li>
+				<li className="center med-text"><NavLink to="/contact">Contact</NavLink></li>
 			</ul>
 		</div>
 	)
